@@ -58,11 +58,11 @@ export default function HeroContainer() {
               Allow me to introduce myself...
             </h2>
             <p className="text-base md:text-lg">
-              I currently pursuing a Bachelor Degree in Computer Science and in
+              I am currently pursuing a Bachelor Degree in Computer Science and in
               my free time I work on personal and volunteer projects. I have
-              well over 2 years of experience with HTML, CSS, and JavaScript.
-              Along with almost 1 year of experience with React. As of now, I am
-              currently working with NextJs and NodeJs and so that I continue
+              well over 3 years of experience with HTML, CSS, and JavaScript.
+              Along with almost 2 year of experience with React. As of now, I am
+              currently working with NextJs and NodeJs and so that I can continue
               working towards a career as a fullstack engineer.
             </p>
           </CardDescription>
