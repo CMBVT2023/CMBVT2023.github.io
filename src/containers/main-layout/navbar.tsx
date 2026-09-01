@@ -22,6 +22,7 @@ export function NavBar() {
             width={150}
             height={150}
             className="h-full w-auto"
+            loading="eager"
           />
         </div>
 

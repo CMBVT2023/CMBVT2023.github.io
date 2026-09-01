@@ -5,7 +5,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import CredentialList from "../components/credential-list";
-import { credentialsArray } from "../data/credentials-array";
+import { credentialsArray } from "../../../lib/credentials-array";
 
 export default function CredentialsAccordion(): React.JSX.Element {
   const credentialInstitutes = [

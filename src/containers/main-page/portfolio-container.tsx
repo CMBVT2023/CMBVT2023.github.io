@@ -6,7 +6,7 @@ import {
   CardTitle,
 } from "../../components/ui/card";
 import { Button } from "@/components/ui/button";
-import { examplesProjectArray } from "@/lib/utils";
+import { examplesProjectArray } from "@/lib/projects-list";
 import Link from "next/link";
 import ProjectDisplay from "../projects/project-display";
 
