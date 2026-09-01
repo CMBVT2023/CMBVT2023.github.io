@@ -14,7 +14,7 @@ export default function AboutPage() {
       <CardHeader>
         <CardTitle className="text-xl md:text-3xl">About</CardTitle>
         <CardDescription className="text-base md:text-xl">
-          Hello, my name is Cristiano Miranda and I am currently a Junior Web
+          Hello, my name is Cristiano Miranda and I am a Junior Web
           Developer.
         </CardDescription>
       </CardHeader>

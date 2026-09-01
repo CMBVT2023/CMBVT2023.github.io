@@ -30,7 +30,9 @@ export default function ContactPage() {
           <li>
             LinkedIn:{" "}
             <InTextLink
-              linkHREF={"https://www.linkedin.com/in/cristiano-miranda-8b30b829a/"}
+              linkHREF={
+                "https://www.linkedin.com/in/cristiano-miranda-8b30b829a/"
+              }
             >
               Cristiano Miranda
             </InTextLink>

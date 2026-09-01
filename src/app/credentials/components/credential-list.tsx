@@ -1,6 +1,6 @@
 import type { Credential } from "@/lib/types";
-import { ScrollArea } from "../ui/scroll-area";
-import { Card, CardContent, CardHeader } from "../ui/card";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
 interface CredentialListProps {
   credentialsArray: Credential[];
@@ -11,8 +11,10 @@ export default function CredentialList({
 }: CredentialListProps) {
   const CredentialItems = credentialsArray.map((credential) => {
     return (
-      <div key={credential.credentialTitle} className="p-1">
-        <Card className="bg-primary-background/70">
+        <Card
+          key={credential.credentialTitle}
+          className="bg-primary-background/70 border-y-2 border-x-0 border-card-text rounded-none"
+        >
           <CardHeader className="text-xl md:text-2xl">
             {credential.credentialTitle}
           </CardHeader>
@@ -20,7 +22,6 @@ export default function CredentialList({
             {credential.credentialDescription}
           </CardContent>
         </Card>
-      </div>
     );
   });
 
