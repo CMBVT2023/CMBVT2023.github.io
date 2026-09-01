@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { codingExperience } from "@/lib/experience-info";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
@@ -42,13 +43,12 @@ export default function HeroContainer() {
         />
         <div className="flex w-full md:w-1/2 lg:w-2/3 flex-col md:flex-col-reverse md:justify-around gap-5">
           <div className="flex items-center flex-row justify-center gap-5">
-            <LinkBadge redirectFunction={redirectCredentials} linkText="2+">
-              Years of Web
-              <br /> Development
+            <LinkBadge redirectFunction={redirectCredentials} linkText={`${codingExperience}+`}>
+              Years of Programming
               <br /> Experience
             </LinkBadge>
             <LinkBadge redirectFunction={redirectPortfolio} linkText="20+">
-              Web
+              Coding
               <br />
               Projects
             </LinkBadge>
