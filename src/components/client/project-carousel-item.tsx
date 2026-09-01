@@ -33,7 +33,6 @@ export default function ProjectCarouselItem({
         <CardHeader className="w-full h-1/5 flex flex-row">
           <CardTitle className="text-base">{projectTitle}</CardTitle>
           <Image
-            layout="auto"
             src={projectImage}
             alt={imageDescription}
             className="object-contain w-full h-full"
